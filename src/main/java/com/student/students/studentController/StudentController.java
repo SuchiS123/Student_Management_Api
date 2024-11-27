@@ -49,10 +49,7 @@ public class StudentController {
     {
         StudentDto studentDto=studentService.updateStudent(studentId,stdto);
         studentDto.setDate(new Date());
-        System.out.println("Student");
-        System.out.println("Updated");
-        System.out.println("Date: "+studentDto.getDate());
-        System.out.println("Student Updated Successfully");
+        
 
 
         return new ResponseEntity<>(studentDto,HttpStatus.OK);
