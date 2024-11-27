@@ -53,6 +53,8 @@ public class StudentController {
         System.out.println("Students updated");
         System.out.println("Student");
         System.out.println("Students updated");
+        System.out.println("Student");
+        System.out.println("Students updated");
 
         return new ResponseEntity<>(studentDto,HttpStatus.OK);
 
