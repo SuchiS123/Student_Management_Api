@@ -46,4 +46,19 @@ public class Student {
     @Column(name ="Blood Group",nullable = false)
     private String bloodGroup4;
 
+    @Column(name="age",nullable=false)
+    private Integer age1;
+
+    @Column(name="age",nullable=false)
+    private Integer age2;
+
+    @Column(name="age",nullable=false)
+    private Integer age4;
+
+
+    @Column(name="age",nullable=false)
+    private Integer age5;
+
+    @Column(name="age",nullable=false)
+    private Integer age6;
 }
