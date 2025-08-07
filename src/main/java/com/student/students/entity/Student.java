@@ -33,5 +33,17 @@ public class Student {
     @Column(name = "Parents" , nullable = false)
     private String Parents;
 
+    @Column(name ="Blood Group",nullable = false)
+    private String bloodGroup1;
+
+    @Column(name ="Blood Group",nullable = false)
+    private String bloodGroup2;
+
+    @Column(name ="Blood Group",nullable = false)
+    private String bloodGroup3;
+
+
+    @Column(name ="Blood Group",nullable = false)
+    private String bloodGroup4;
 
 }
