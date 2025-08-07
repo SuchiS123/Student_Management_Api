@@ -27,5 +27,17 @@ public class Student {
     @Column(name="class_name",nullable=false)
     private String className;
 
+     @Column(name="age",nullable=false)
+    private Integer age1;
+
+     @Column(name="age",nullable=false)
+    private Integer age2;
+
+     @Column(name="age",nullable=false)
+    private Integer age3;
+
+     @Column(name="age",nullable=false)
+    private Integer age4;
+
 
 }
