@@ -30,5 +30,8 @@ public class Student {
     @Column(name ="Blood Group",nullable = false)
     private String bloodGroup;
 
+    @Column(name = "Parents" , nullable = false)
+    private String Parents;
+
 
 }
