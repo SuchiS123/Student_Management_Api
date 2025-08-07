@@ -32,4 +32,8 @@ public class StudentDto {
     private String className;
 
     private Date date;
+
+    @NotBlank
+    @Size(min=1,max=100,message = "Must Be 1 Characters")
+    private String parentsName;
 }
