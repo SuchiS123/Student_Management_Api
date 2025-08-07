@@ -27,5 +27,8 @@ public class Student {
     @Column(name="class_name",nullable=false)
     private String className;
 
+    @Column(name ="Blood Group",nullable = false)
+    private String bloodGroup;
+
 
 }
